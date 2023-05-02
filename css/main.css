@@ -1,0 +1,15 @@
+#carousel {
+    display: block;
+  }
+#accordion {
+    display: none;
+}
+
+@media only screen and (max-width: 414px) {
+    #carousel {
+      display: none;
+    }
+    #accordion {
+        display: block;
+    }
+  }
